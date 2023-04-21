@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+    font-family: Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #455056;
+    background-color: #f2f8f9;
+    font-weight: 400;
+}
+
+:root {
+    --blue: #3075BA;
+    --indigo: #6610f2;
+    --purple: #7266ba;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #ff5722;
+    --yellow: #ffc107;
+    --green: #4caf50;
+    --teal: #2bbbad;
+    --cyan: #03a9f4;
+    --white: #fff;
+    --gray: #868e96;
+    --gray-dark: #343a40;
+    --primary: #3075BA;
+    --secondary: #4caf50;
+    --success: #4caf50;
+    --info: #03a9f4;
+    --warning: #ffc107;
+    --danger: #ff5722;
+    --light: #dedfdf;
+    --dark: #929495;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: "SFMono-Regular",Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+
+nav{
+
+postion:absulte;}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #c471f5;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1))
+}
+
+
+
+<!-- <section class="vh-100" style="background-color: Skyblue;">
+<nav class="navbar navbar-expand-lg ">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- <div class="pmd-tab-active-bar" style="width: 93.125px; left: 0px;"></div>-->
+    <ul class="nav nav-tabs" role="tablist" style="width: 325.575px;">
+       <li class="nav-item"><a class="nav-link active" href="#about" aria-controls="about" role="tab" data-toggle="tab"><b>About</b></a></li>
+       <li class="nav-item"><a class="nav-link" href="#documents" aria-controls="documents" role="tab" data-toggle="tab"><b>Documents</b></a></li>
+       <li class="nav-item"><a class="nav-link" href="#salary" aria-controls="salary" role="tab" data-toggle="tab"><b>Salary</b></a></li>
+    </ul>
+   
+  </div>
+  
+</nav>
+</section>-->
+
+
